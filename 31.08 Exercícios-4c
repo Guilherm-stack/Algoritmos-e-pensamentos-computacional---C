@@ -1,0 +1,26 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    float altura,peso,Imc;
+    
+    printf("digite sua altura :");
+    scanf("%f", &altura);
+    printf("digite seu peso :");
+    scanf("%f", &peso);
+    Imc = peso/(altura*altura) ;
+    printf("seu IMC: %2.f",Imc);
+    
+    return 0;
+    
+        
+        
+}
